@@ -1,0 +1,178 @@
+@import url('http://fonts.googleapis.com/css?family=EB+Garamond&amp;subset=vietnamese,cyrillic')
+
+body {
+    margin:50px;
+    padding:50px;
+    margin-top:20px;
+    padding-top:0;
+    background-color: rgba(255, 251, 230, 1);
+    font-family: EB Garamond;
+}
+
+p.sgc-3 {
+    font-style: italic
+}
+
+p.sgc-2 {
+    font-weight: bold;
+    text-align: right
+}
+
+p.sgc-1 {
+    font-style: italic;
+    text-align: justify
+}
+
+p.sgc-2 {font-style: italic; text-align: right}   h3.sgc-1 {text-align: center;}
+
+#container [data-rel], #content-layer [data-rel] {
+font: 0/0 a;
+color: transparent;
+text-shadow: none;
+background-color: transparent;
+border: 0;
+display: none;
+width: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1, h2{
+text-align:center
+}
+
+
+
+.p2{font-size:0.9em;}
+
+.p1{
+font-style:italic
+}
+
+img{
+text-align:center;
+}
+
+.ol1{list-style-type:lower-alpha}
+
+table{
+
+
+
+    border: solid 1px #C3C3C3;
+    border-collapse: collapse;
+}
+table th, table td{
+    border: solid 1px #C3C3C3;
+    padding: 3px;
+    vertical-align: top;
+}
+table th{
+    background: #E5EECC;
+}
+
+table.nocss{
+    border: 0;
+    border-collapse: none;
+}
+table.nocss th, table.nocss td{
+    border: 0;
+}
+table.nocss th{
+    background: #fff;
+}
+
+
+table tr{
+
+}
+
+
+table tr td{
+
+}
+
+.center{text-align: center;}
+.left{
+    text-align: left;
+}
+
+
+.right{
+    text-align: right;
+}
+
+
+.justify{
+    text-align: justify;
+}
+
+
+.box {font-size:0.9em;
+    border: solid 2px #ccc;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+margin: 8px;
+padding: 8px;
+}
+.box1 {
+    border: solid 2px #ccc;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+margin: 8px;
+padding: 8px;
+}
+
+.box-left{
+    float: left;
+    margin-right: 5px;
+}
+
+
+.box-right{
+    float: right;
+    margin-left: 5px;
+}
+
+#viewer, #back-viewer, #back-2-viewer{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+
+p {
+    font-size: 20px;
+}
+
+blockquote {
+  margin: 1.5em 10px;
+  font-size:20px;
+  font-style:italic;
+}
+
+#title {
+border-bottom: 3px solid;
+margin-bottom:50px;
+margin-top:30px;
+}
+
+#navigator {
+position: absolute;
+top: 30px;
+right: 100px;
+}
+
+.anav {
+text-decoration: none;
+color:black;
+}
+
