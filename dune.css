@@ -20,10 +20,13 @@ p.sgc-2 {
 
 p.sgc-1 {
     font-style: italic;
-    text-align: justify
+    text-align: justify;
+    font-size:20px;
 }
 
-p.sgc-2 {font-style: italic; text-align: right}   h3.sgc-1 {text-align: center;}
+p.sgc-2 {font-style: italic; 
+    font-size: 15px;
+    text-align: right}   h3.sgc-1 {text-align: center;}
 
 #container [data-rel], #content-layer [data-rel] {
 font: 0/0 a;
@@ -173,7 +176,7 @@ right: 100px;
 
 .anav {
 text-decoration: none;
-color:black;
+color: rgb(137, 33, 53);
 font-weight: bold;
 }
 
