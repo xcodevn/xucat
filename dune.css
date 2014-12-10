@@ -5,6 +5,10 @@
   src: local('EB Garamond'), local('EBGaramond'), url(http://fonts.gstatic.com/s/ebgaramond/v7/CDR0kuiFK7I1OZ2hSdR7G7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 
+html {
+        -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+
 p.sgc-1 { font-size:0.8em; }
 
 p.sgc-2 { font-size: 0.7em; }   
