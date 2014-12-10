@@ -1,4 +1,9 @@
-@import url('http://fonts.googleapis.com/css?family=EB+Garamond&amp;subset=vietnamese,cyrillic');
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('EB Garamond'), local('EBGaramond'), url(http://fonts.gstatic.com/s/ebgaramond/v7/CDR0kuiFK7I1OZ2hSdR7G7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
 
 body {
     margin:3%;
@@ -178,5 +183,6 @@ right: 100px;
 text-decoration: none;
 color: rgb(137, 33, 53);
 font-weight: bold;
+font-family: cursive;
 }
 
