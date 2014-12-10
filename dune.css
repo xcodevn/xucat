@@ -5,9 +5,48 @@
   src: local('EB Garamond'), local('EBGaramond'), url(http://fonts.gstatic.com/s/ebgaramond/v7/CDR0kuiFK7I1OZ2hSdR7G7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 
+p.sgc-1 { font-size:0.8em; }
+
+p.sgc-2 { font-size: 0.7em; }   
+
+.anav { font-size:0.8em; }
+
+@media (min-width:320px) { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
 body {
-    margin:3%;
-    padding:50px;
+    margin:0;
+    font-size:1.7em;
+}
+.anav { font-size:0.5em; }
+}
+@media (min-width:481px) { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+body {
+    margin:20px;
+    font-size:1.7em;
+}
+.anav { font-size:0.5em; }
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px) { 
+body {
+    margin:5%;
+    font-size:1.5em;
+}
+
+}
+
+
+@media (min-width:1025px) { 
+body {
+    margin:10%;
+    font-size:1.7em;
+}
+}
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+body {
     margin-top:20px;
     padding-top:0;
     background-color: rgba(255, 251, 230, 1);
@@ -26,12 +65,10 @@ p.sgc-2 {
 p.sgc-1 {
     font-style: italic;
     text-align: justify;
-    font-size:20px;
 }
 
-p.sgc-2 {font-style: italic; 
-    font-size: 15px;
-    text-align: right}   h3.sgc-1 {text-align: center;}
+p.sgc-2 {font-style: italic; text-align: right }   
+h3.sgc-1 {text-align: center;}
 
 #container [data-rel], #content-layer [data-rel] {
 font: 0/0 a;
@@ -157,26 +194,20 @@ padding: 8px;
             }
 
 
-p {
-    font-size: 25px;
-}
-
 blockquote {
   margin: 1.5em 10px;
-  font-size:25px;
   font-style:italic;
 }
 
 #title {
-border-bottom: 3px solid;
 margin-bottom:50px;
 margin-top:30px;
+display:inline;
 }
 
 #navigator {
-position: absolute;
-top: 30px;
-right: 100px;
+    display:inline;
+    float:right;
 }
 
 .anav {
@@ -186,3 +217,6 @@ font-weight: bold;
 font-family: cursive;
 }
 
+.page-break{
+    margin-top:50px;
+}
